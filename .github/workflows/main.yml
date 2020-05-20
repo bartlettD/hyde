@@ -21,4 +21,4 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Request Page Rebuild
-      run: curl --header "Authorization:\ {{ secrets.PAT }}" --request POST https://api.github.com/repos/bartlettD/bartlettD.github.io/pages/builds
+      run: curl --header "Authorization:\ token {{ secrets.PAT }}" --request POST https://api.github.com/repos/bartlettD/bartlettD.github.io/pages/builds
