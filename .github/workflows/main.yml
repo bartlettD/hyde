@@ -21,5 +21,5 @@ jobs:
         PAT: ${{ secrets.PAT }}
       run: |
         curl --request POST \
-        --header 'Authorization: token $PAT'  \
+        --header "Authorization: token $PAT"  \
         https://api.github.com/repos/bartlettD/bartlettD.github.io/pages/builds
