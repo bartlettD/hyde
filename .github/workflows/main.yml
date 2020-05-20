@@ -17,7 +17,9 @@ jobs:
     steps:
     # Send a POST to the pages API to request a rebuild.
     - name: Request Page Rebuild
+      env: 
+        PAT: ${{ secrets.PAT }}
       run: |
         curl --request POST \
-        --header 'Authorization: token {{ secrets.PAT }}'  \
+        --header 'Authorization: token $PAT'  \
         https://api.github.com/repos/bartlettD/bartlettD.github.io/pages/builds
