@@ -83,6 +83,11 @@ html {
   font-size: 3.25rem;
 }
 
+/* Social Icons*/
+.sidebar-social {
+  font-size: 2rem;
+}
+
 /* Sidebar nav */
 .sidebar-nav {
   margin-bottom: 1rem;
