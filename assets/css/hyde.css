@@ -84,8 +84,9 @@ html {
 }
 
 /* Social Icons*/
-.sidebar-social {
+.sidebar-social a{
   font-size: 2rem;
+  color: rgba(255,255,255,.5);
 }
 
 /* Sidebar nav */
