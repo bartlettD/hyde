@@ -88,6 +88,10 @@ html {
   font-size: 2rem;
   color: rgba(255,255,255,.5);
 }
+.sidebar-social:hover{
+  font-size: 2rem;
+  color: #fff;
+}
 
 /* Sidebar nav */
 .sidebar-nav {
